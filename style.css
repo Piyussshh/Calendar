@@ -1,0 +1,64 @@
+html,body,.container
+{
+	height: 100%;
+}
+
+
+	.bg-green
+{
+    background: #80B500 !important;
+   color: whitesmoke !important;
+}
+
+.circle
+{
+    border-radius: 50%;
+
+}
+.calendar
+{
+	margin-top:2.5rem;
+	padding-bottom: 2rem;
+	border-bottom: 1px solid #dddddd;
+
+
+}
+.calendar h2
+{
+	margin-bottom: 1.5rem;
+	text-align: center;
+    letter-spacing: 8px;
+}
+.calendar table
+{
+	margin-top: 1rem;
+}
+.calendar thead
+{
+	margin-top: 1rem;
+}
+
+.calendar table th,td
+{
+  /* padding-left: .5rem;
+   padding-right: .5rem;
+   padding-top: .5rem;*/
+   padding: .5rem .7rem;
+   font-weight: 100;
+    border-radius: 50%;
+
+
+}  
+.calendar table td:hover
+{
+ 
+    background: #80B500 !important;
+   color: whitesmoke !important;   
+}
+
+
+.calendar table td
+{
+	color: #8a8a8a;
+	font-size: 12.25px;
+}
